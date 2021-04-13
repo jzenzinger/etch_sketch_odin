@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    top: 30px;
+    outline: 2px solid #000;
+    font-size: 0;
+    margin: auto;
+    width: 100%;
+    height: 480px;
+    padding: 0;
+    border: none;
+}
+
+.grid {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 1px solid #000;
+    display: inline-block;
+}
+
+.buttons button{
+    display: inline-block;
+}
+
+.newGridBtn {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)
+}
+.newGridBtn {
+   margin-top: 3em;
+   margin-bottom: 0.6em;
+   padding: 0.9em 1.2em;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 1.4em;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0.3em 0.3em 1em #9733eeb6;
+   border-radius: 10px;
+   display: block;
+   border: none;
+ }
+
+ .newGridBtn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .clearGridBtn {
+    background-image: linear-gradient(to left, #ff4756 0%, #e949c1  51%, #fd73b4  100%)
+ }
+ .clearGridBtn {
+    margin-top: 3em;
+    margin-bottom: 0.6em;
+    padding: 0.9em 1.2em;
+    margin-left: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0.3em 0.3em 1em #ee3390b6;
+    border-radius: 10px;
+    display: block;
+    border: none;
+  }
+ 
+  .clearGridBtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+ #titleNewGrid {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1em;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+ }
+
+ .header {
+     margin: 0;
+     background-color: #9733EE;
+     box-shadow: 0 1em 2em #9733eeb6;
+     border-radius: 0 0 1em 1em;
+     padding: 0.2em;
+     width: 100%;
+ }
